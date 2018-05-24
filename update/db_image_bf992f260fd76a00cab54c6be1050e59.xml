@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format>png</format>
+        <height>25</height>
+        <image/>
+        <name>Skype4BAdapter-CTI.png</name>
+        <size_bytes>2204</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-11-28 10:41:31</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>bf992f260fd76a00cab54c6be1050e59</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Skype4BAdapter-CTI.png</sys_name>
+        <sys_package display_value="Sensiple CTI for Skype for Business" source="x_eptds_cti">f97848800ff92600cab54c6be1050e07</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sensiple CTI for Skype for Business">f97848800ff92600cab54c6be1050e07</sys_scope>
+        <sys_update_name>db_image_bf992f260fd76a00cab54c6be1050e59</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-11-28 11:28:16</sys_updated_on>
+        <thumbnail/>
+        <width>25</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>2204</size_bytes>
+        <size_compressed>1947</size_compressed>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-11-28 11:27:49</sys_created_on>
+        <sys_id>b74477a60fd76a00cab54c6be1050e88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-11-28 11:27:49</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>bf992f260fd76a00cab54c6be1050e59</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="b74477a60fd76a00cab54c6be1050e88">b74477a60fd76a00cab54c6be1050e88</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-11-28 11:27:49</sys_created_on>
+        <sys_id>f74477a60fd76a00cab54c6be1050e88</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2584</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="b74477a60fd76a00cab54c6be1050e88">b74477a60fd76a00cab54c6be1050e88</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-11-28 11:27:49</sys_created_on>
+        <sys_id>7b44736a0fd76a00cab54c6be1050e10</sys_id>
+    </sys_attachment_doc>
+</record_update>

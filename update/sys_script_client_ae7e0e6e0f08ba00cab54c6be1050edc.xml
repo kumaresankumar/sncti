@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>https://ven01536.service-now.com/nav_to.do?uri=%2Fincident.do%3Fsys_id%3D9af91c160f786e00cab54c6be1050e15%26sysparm_record_target%3Dincident%26sysparm_record_row%3D1%26sysparm_record_rows%3D454%26sysparm_record_list%3Dactive%253Dtrue%255EORDERBYDESCsys_updated_on%3Fsysparm_user%3D2809952237b1300054b6a3549dbe5dd4</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>Custom value in query string</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Populate the variables with the parameters passed in the URL
+   //Use the 'getParmVal' function below to get the parameter values from the URL
+  
+   try{
+	   var name = 'session_id';  
+	
+setTimeout(f, 1000);
+
+	var url = getTopWindow().location.href.toString();
+	   console.log(getTopWindow().location.href.toString());
+	   alert(url);
+	    var decode = decodeURIComponent(url);
+	   alert(decode);
+	 // var uri = action.getGlideURI();
+
+ var parseurl = decode.parseQuery();
+	 
+    if (parseurl[name]) {  
+			alert(parseurl[name]);
+		 g_form.setValue('user_variable', parseurl[name]); 
+	}
+	else{
+		//alert('No Query');
+	} 
+   }
+    catch (exception){
+	alert("Incident page loading Error: " + exception.message);
+		}
+
+}
+
+function f() { 
+  alert('Hi');
+	 
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-01-04 10:51:33</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ae7e0e6e0f08ba00cab54c6be1050edc</sys_id>
+        <sys_mod_count>64</sys_mod_count>
+        <sys_name>Custom value in query string</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sensiple CTI for Skype for Business" source="x_eptds_cti">f97848800ff92600cab54c6be1050e07</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sensiple CTI for Skype for Business">f97848800ff92600cab54c6be1050e07</sys_scope>
+        <sys_update_name>sys_script_client_ae7e0e6e0f08ba00cab54c6be1050edc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-01-06 12:00:27</sys_updated_on>
+        <table>incident</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

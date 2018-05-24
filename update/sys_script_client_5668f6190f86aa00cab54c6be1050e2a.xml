@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>account</field>
+        <global>true</global>
+        <messages/>
+        <name>Skype4B_CTI_Case_Click2Dial</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//Type appropriate comment here, and begin script below
+	g_form.addDecoration('contact', 'icon-phone', "Click to Dial");
+	g_form.getControl('contact').parentNode.parentNode.getElementsByClassName('icon-phone')[0].onclick=phoneIconClickHandler;
+}
+
+function phoneIconClickHandler(){
+	g_form.getReference('contact', doCall);
+}
+
+function doCall(contact){
+	
+	var _caseId = g_form.getValue("number");
+	var _contactId = contact.sys_id;
+	var _source = "tel";
+	var _phone = "";
+	
+	if(contact.phone!="") {
+		 _phone = contact.phone;
+		if(contact.phone.indexOf("@") > 0) {
+			_source = "sip";
+		}
+	}
+	else if(contact.mobile_phone!="") {
+		_phone = contact.mobile_phone;
+		if(contact.mobile_phone.indexOf("@") > 0) {
+			_source = "sip";
+		}
+	}
+	else if(contact.email!=""){
+		_phone = contact.email;
+		_source = "sip";
+	}
+	
+	var url = g_scratchpad.click2call;
+	if(_phone!=undefined && _phone!=""){
+		var xhttp = new XMLHttpRequest();
+		xhttp.open("POST",url+"call?phone="+_phone+"&source="+_source+"&contactId="+_contactId+"&caseId="+_caseId, true);
+		xhttp.send();	
+	}
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-09-23 06:36:23</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5668f6190f86aa00cab54c6be1050e2a</sys_id>
+        <sys_mod_count>53</sys_mod_count>
+        <sys_name>Skype4B_CTI_Case_Click2Dial</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sensiple CTI for Skype for Business" source="x_eptds_cti">f97848800ff92600cab54c6be1050e07</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sensiple CTI for Skype for Business">f97848800ff92600cab54c6be1050e07</sys_scope>
+        <sys_update_name>sys_script_client_5668f6190f86aa00cab54c6be1050e2a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-11-25 04:12:29</sys_updated_on>
+        <table>sn_customerservice_case</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

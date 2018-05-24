@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Account Import" max_length="40" name="x_eptds_cti_account_import" type="collection">
+        <element attributes="import_attribute_name=account_code,edge_encryption_enabled=true" label="Account code" max_length="40" name="account_code" type="string"/>
+        <element attributes="import_attribute_name=account_parent,edge_encryption_enabled=true" label="Account parent" max_length="40" name="account_parent" type="string"/>
+        <element attributes="import_attribute_name=account_path,edge_encryption_enabled=true" label="Account path" max_length="40" name="account_path" type="string"/>
+        <element attributes="import_attribute_name=apple_icon,edge_encryption_enabled=true" label="Apple icon" max_length="40" name="apple_icon" type="string"/>
+        <element attributes="import_attribute_name=banner_image,edge_encryption_enabled=true" label="Banner image" max_length="40" name="banner_image" type="string"/>
+        <element attributes="import_attribute_name=banner_image_light,edge_encryption_enabled=true" label="Banner image light" max_length="40" name="banner_image_light" type="string"/>
+        <element attributes="import_attribute_name=banner_text,edge_encryption_enabled=true" label="Banner text" max_length="40" name="banner_text" type="string"/>
+        <element attributes="import_attribute_name=city,edge_encryption_enabled=true" label="City" max_length="40" name="city" type="string"/>
+        <element attributes="import_attribute_name=contact,edge_encryption_enabled=true" label="Contact" max_length="40" name="contact" type="string"/>
+        <element attributes="import_attribute_name=country,edge_encryption_enabled=true" label="Country" max_length="40" name="country" type="string"/>
+        <element attributes="import_attribute_name=customer,edge_encryption_enabled=true" label="Customer" max_length="40" name="customer" type="string"/>
+        <element attributes="import_attribute_name=discount,edge_encryption_enabled=true" label="Discount" max_length="40" name="discount" type="string"/>
+        <element attributes="import_attribute_name=fax_phone,edge_encryption_enabled=true" label="Fax phone" max_length="40" name="fax_phone" type="string"/>
+        <element attributes="import_attribute_name=fiscal_year,edge_encryption_enabled=true" label="Fiscal year" max_length="40" name="fiscal_year" type="string"/>
+        <element attributes="import_attribute_name=latitude,edge_encryption_enabled=true" label="Latitude" max_length="40" name="latitude" type="string"/>
+        <element attributes="import_attribute_name=lat_long_error,edge_encryption_enabled=true" label="Lat long error" max_length="40" name="lat_long_error" type="string"/>
+        <element attributes="import_attribute_name=longitude,edge_encryption_enabled=true" label="Longitude" max_length="40" name="longitude" type="string"/>
+        <element attributes="import_attribute_name=manufacturer,edge_encryption_enabled=true" label="Manufacturer" max_length="40" name="manufacturer" type="string"/>
+        <element attributes="import_attribute_name=market_cap,edge_encryption_enabled=true" label="Market cap" max_length="40" name="market_cap" type="string"/>
+        <element attributes="import_attribute_name=name,edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="import_attribute_name=notes,edge_encryption_enabled=true" label="Notes" max_length="40" name="notes" type="string"/>
+        <element attributes="import_attribute_name=number,edge_encryption_enabled=true" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="import_attribute_name=num_employees,edge_encryption_enabled=true" label="Num employees" max_length="40" name="num_employees" type="string"/>
+        <element attributes="import_attribute_name=parent,edge_encryption_enabled=true" label="Parent" max_length="40" name="parent" type="string"/>
+        <element attributes="import_attribute_name=partner,edge_encryption_enabled=true" label="Partner" max_length="40" name="partner" type="string"/>
+        <element attributes="import_attribute_name=phone,edge_encryption_enabled=true" label="Phone" max_length="40" name="phone" type="string"/>
+        <element attributes="import_attribute_name=primary,edge_encryption_enabled=true" label="Primary" max_length="40" name="primary" type="string"/>
+        <element attributes="import_attribute_name=primary_contact,edge_encryption_enabled=true" label="Primary contact" max_length="40" name="primary_contact" type="string"/>
+        <element attributes="import_attribute_name=profits,edge_encryption_enabled=true" label="Profits" max_length="40" name="profits" type="string"/>
+        <element attributes="import_attribute_name=publicly_traded,edge_encryption_enabled=true" label="Publicly traded" max_length="40" name="publicly_traded" type="string"/>
+        <element attributes="import_attribute_name=rank_tier,edge_encryption_enabled=true" label="Rank tier" max_length="40" name="rank_tier" type="string"/>
+        <element attributes="import_attribute_name=registration_code,edge_encryption_enabled=true" label="Registration code" max_length="40" name="registration_code" type="string"/>
+        <element attributes="import_attribute_name=revenue_per_year,edge_encryption_enabled=true" label="Revenue per year" max_length="40" name="revenue_per_year" type="string"/>
+        <element attributes="import_attribute_name=state,edge_encryption_enabled=true" label="State" max_length="40" name="state" type="string"/>
+        <element attributes="import_attribute_name=stock_price,edge_encryption_enabled=true" label="Stock price" max_length="40" name="stock_price" type="string"/>
+        <element attributes="import_attribute_name=stock_symbol,edge_encryption_enabled=true" label="Stock symbol" max_length="40" name="stock_symbol" type="string"/>
+        <element attributes="import_attribute_name=street,edge_encryption_enabled=true" label="Street" max_length="40" name="street" type="string"/>
+        <element attributes="import_attribute_name=theme,edge_encryption_enabled=true" label="Theme" max_length="40" name="theme" type="string"/>
+        <element attributes="import_attribute_name=vendor,edge_encryption_enabled=true" label="Vendor" max_length="40" name="vendor" type="string"/>
+        <element attributes="import_attribute_name=vendor_manager,edge_encryption_enabled=true" label="Vendor manager" max_length="40" name="vendor_manager" type="string"/>
+        <element attributes="import_attribute_name=vendor_type,edge_encryption_enabled=true" label="Vendor type" max_length="40" name="vendor_type" type="string"/>
+        <element attributes="import_attribute_name=website,edge_encryption_enabled=true" label="Website" max_length="40" name="website" type="string"/>
+        <element attributes="import_attribute_name=zip,edge_encryption_enabled=true" label="Zip" max_length="40" name="zip" type="string"/>
+    </element>
+</database>
