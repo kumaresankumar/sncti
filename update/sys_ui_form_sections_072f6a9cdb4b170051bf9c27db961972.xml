@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="072f6a9cdb4b170051bf9c27db961972" sys_domain="global" table="customer_account" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 08:57:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>032fa2dcdb4b170051bf9c27db961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="customer_account" name="customer_account" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">072f6a9cdb4b170051bf9c27db961972</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="customer_account" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">032fa2dcdb4b170051bf9c27db961982</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 08:57:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 08:57:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>032f6a9cdb4b170051bf9c27db961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="customer_account" name="customer_account" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">072f6a9cdb4b170051bf9c27db961972</sys_ui_form>
+            <sys_ui_section caption="General" display_value="General" name="customer_account" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">4f2f6a9cdb4b170051bf9c27db961974</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 08:57:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 08:57:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c72fa2dcdb4b170051bf9c27db961986</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="customer_account" name="customer_account" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">072f6a9cdb4b170051bf9c27db961972</sys_ui_form>
+            <sys_ui_section caption="Information" display_value="Information" name="customer_account" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">072fa2dcdb4b170051bf9c27db961984</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 08:57:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>customer_account</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 08:57:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>072f6a9cdb4b170051bf9c27db961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>customer_account</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Tryvium Desk - Skype4B CTI for Servicenow CSM" source="x_eptds_cti">f97848800ff92600cab54c6be1050e07</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Tryvium Desk - Skype4B CTI for Servicenow CSM">f97848800ff92600cab54c6be1050e07</sys_scope>
+            <sys_update_name>sys_ui_form_sections_072f6a9cdb4b170051bf9c27db961972</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 08:57:11</sys_updated_on>
+            <sys_user/>
+            <view display_value="Vendor" name="vendor">c12b7492d7010100fceaa6859e6103e6</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

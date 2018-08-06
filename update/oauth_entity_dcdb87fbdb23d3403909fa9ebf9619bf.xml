@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>60</auth_code_lifespan>
+        <auth_url/>
+        <certificate_url/>
+        <client_id>9cdb87fb1023d340359507ba80da1ebf</client_id>
+        <client_secret>fJEL2dVv/TRbmQjQuSnh6A==</client_secret>
+        <client_uuid>5cdb87fbdb23d3403909fa9ebf9619bf</client_uuid>
+        <comments/>
+        <default_grant_type>password</default_grant_type>
+        <id_token_lifespan>86400</id_token_lifespan>
+        <logo_url/>
+        <message_signature_lifespan>60</message_signature_lifespan>
+        <name>TryviumDesk - Skype4B CTI</name>
+        <oauth_api_script/>
+        <redirect_url/>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <revoke_token_url/>
+        <salt/>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-03 04:32:59</sys_created_on>
+        <sys_id>dcdb87fbdb23d3403909fa9ebf9619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TryviumDesk - Skype4B CTI</sys_name>
+        <sys_package display_value="Tryvium Desk - Skype4B CTI for Servicenow CSM" source="x_eptds_cti">f97848800ff92600cab54c6be1050e07</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tryvium Desk - Skype4B CTI for Servicenow CSM">f97848800ff92600cab54c6be1050e07</sys_scope>
+        <sys_update_name>oauth_entity_dcdb87fbdb23d3403909fa9ebf9619bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-03 04:32:59</sys_updated_on>
+        <token_url/>
+        <type>client</type>
+        <user/>
+    </oauth_entity>
+</record_update>

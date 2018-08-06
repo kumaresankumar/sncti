@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format>png</format>
+        <height>24</height>
+        <image/>
+        <name>tryviumdesk-cti.png</name>
+        <size_bytes>654</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-02 12:40:54</sys_created_on>
+        <sys_id>1002f327dbab93403909fa9ebf961997</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>tryviumdesk-cti.png</sys_name>
+        <sys_package display_value="Tryvium Desk - Skype4B CTI for Servicenow CSM" source="x_eptds_cti">f97848800ff92600cab54c6be1050e07</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tryvium Desk - Skype4B CTI for Servicenow CSM">f97848800ff92600cab54c6be1050e07</sys_scope>
+        <sys_update_name>db_image_1002f327dbab93403909fa9ebf961997</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-02 12:41:16</sys_updated_on>
+        <thumbnail/>
+        <width>24</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#b4bada</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <image_height>24</image_height>
+        <image_width>24</image_width>
+        <size_bytes>654</size_bytes>
+        <size_compressed>677</size_compressed>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-02 12:41:16</sys_created_on>
+        <sys_id>ea12b7a7dbab93403909fa9ebf96195f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-02 12:41:16</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>1002f327dbab93403909fa9ebf961997</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="ea12b7a7dbab93403909fa9ebf96195f">ea12b7a7dbab93403909fa9ebf96195f</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-02 12:41:16</sys_created_on>
+        <sys_id>2e12b7a7dbab93403909fa9ebf96195f</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AY4Ccf2JUE5HDQoaCgAAAA1JSERSAAAAGAAAABgIBgAAAOB3PfgAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAACMElEQVR42rRWvS9DURS/TzC0gw46CZ5BJAxqsOjQJzFZPP/B+w/UYvWsFv6DxyYxtCQmQ5+BxaAShBiKwVCkFpUwPOfcnivHbW8/hF/y6z3363zde8+rEP8Mq9WCKIpsaDxgBmgTESHwDrhnWVa+YwOkOAA6QFRwBCyyJTYZdYGvwOVmhnTlXlRDjgw1W5sA+sAKMMB+u8o9bSxHShQKwKxyANoU8IyYMCl3uXLaVIqaA41mWTRoIDCFiot96juax60QMKdwn6sbwDyW1AF3qFwhq+uymAEcWIObsEXeeHqUT89vIjy5/zHmzAyLZH9cdfE2jZCM+ha7VFh07fLs3tch2DkX9mCfGB9LSqKMYwx4uB44+UrvZKGLJjBfIU04phs2MpQQ01MDIh7rkUS5Wv3Ql2WoRctONx3GqrpF7KVK+OvhtxyL9bbzjBKUhSWUu+EnxSZTjXb4K7WgdvevxMHhrai+f8r+6dmjyahN6RJoYBM4SRMoZ/XV4fGdbC+vy8KGNMVBKZ4BYn5utL7+WFYIUeRliijvi+w2FfUNTrqWtQlQWn6piqubJykbUGRnICOoc/hHrOAxPwc0MJtuWp72qF0AbptKRmB6SaWHSnRxXTZNF1gViIyFkpWNTlBhha/QsB4ZCl87KNFjFVRhK63KvGCLW3ntq/LMSr3b9jeVbWqomPKN7Yb+HenEiKudicNyzdPk/PrfAZVwqZCNfePP/oZQymwmF9RHqhG+BBgAo3kLvV7Xn2EAAAAASUVORK5CYIIHRfBZjgIAAA==</data>
+        <length>892</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="ea12b7a7dbab93403909fa9ebf96195f">ea12b7a7dbab93403909fa9ebf96195f</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-02 12:41:16</sys_created_on>
+        <sys_id>ae12b7a7dbab93403909fa9ebf96195f</sys_id>
+    </sys_attachment_doc>
+</record_update>

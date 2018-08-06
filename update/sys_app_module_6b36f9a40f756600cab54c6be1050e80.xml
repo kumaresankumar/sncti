@@ -20,22 +20,18 @@
         <query/>
         <report/>
         <roles>x_eptds_cti.Skype4B_CTI_APIUser</roles>
-        <survey/>
-        <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-09-08 07:36:34</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6b36f9a40f756600cab54c6be1050e80</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name>Contact Import</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Sensiple CTI for Skype for Business" source="x_eptds_cti">f97848800ff92600cab54c6be1050e07</sys_package>
+        <sys_package display_value="Tryvium Desk - Skype4B CTI for Servicenow CSM" source="x_eptds_cti">f97848800ff92600cab54c6be1050e07</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="Sensiple CTI for Skype for Business">f97848800ff92600cab54c6be1050e07</sys_scope>
+        <sys_scope display_value="Tryvium Desk - Skype4B CTI for Servicenow CSM">f97848800ff92600cab54c6be1050e07</sys_scope>
         <sys_update_name>sys_app_module_6b36f9a40f756600cab54c6be1050e80</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2016-10-18 05:21:18</sys_updated_on>

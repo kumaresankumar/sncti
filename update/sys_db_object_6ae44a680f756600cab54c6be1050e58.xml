@@ -17,20 +17,18 @@
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Import Set Row" name="sys_import_set_row">b11db7510f301200cab54c6be1050ea6</super_class>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">5e43d755db12130051bf9c27db961996</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-09-08 08:39:05</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>6ae44a680f756600cab54c6be1050e58</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Cti Case Import</sys_name>
-        <sys_package display_value="Sensiple CTI for Skype for Business" source="x_eptds_cti">f97848800ff92600cab54c6be1050e07</sys_package>
+        <sys_package display_value="Tryvium Desk - Skype4B CTI for Servicenow CSM" source="x_eptds_cti">f97848800ff92600cab54c6be1050e07</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="Sensiple CTI for Skype for Business">f97848800ff92600cab54c6be1050e07</sys_scope>
+        <sys_scope display_value="Tryvium Desk - Skype4B CTI for Servicenow CSM">f97848800ff92600cab54c6be1050e07</sys_scope>
         <sys_update_name>sys_db_object_6ae44a680f756600cab54c6be1050e58</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2016-09-08 08:39:05</sys_updated_on>
